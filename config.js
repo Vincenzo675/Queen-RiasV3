@@ -1,17 +1,17 @@
 require('dotenv').config(); // Load environment variables
 
 module.exports = {
-    prefix: process.env.PREFIX || '.', // Command prefix
-    ownerName: process.env.OWNER_NAME || 'Toxxic', // Owner name
-    ownerNumber: process.env.OWNER_NUMBER || '2348165846414', // Your WhatsApp number
+    prefix: process.env.PREFIX || ' ', // Command prefix
+    ownerName: process.env.OWNER_NAME || 'V i Nㄷㅌ', // Owner name
+    ownerNumber: process.env.OWNER_NUMBER || '916909297247', // Your WhatsApp number
     mode: process.env.MODE || 'private', // Bot mode: 'public' or 'private'
-    region: process.env.REGION || 'Nigeria', // Region
-    botName: process.env.BOT_NAME || 'Rias Gremory V3', // Bot name
-    exifPack: process.env.EXIF_PACK || 'RIAS V3 LOVES', // Sticker pack name
-    exifAuthor: process.env.EXIF_AUTHOR || 'Toxxic', // Author of the sticker pack
-    timeZone: process.env.TIME_ZONE || 'Africa/Lagos', // Time zone
+    region: process.env.REGION || 'India', // Region
+    botName: process.env.BOT_NAME || '𝓠𝓾𝓮𝓮𝓷 𝓑𝓲𝓷𝓭𝔂𝓪', // Bot name
+    exifPack: process.env.EXIF_PACK || '𝓠𝓾𝓮𝓮𝓷 𝓑𝓲𝓷𝓭𝔂𝓪', // Sticker pack name
+    exifAuthor: process.env.EXIF_AUTHOR || 'V i Nㄷㅌ', // Author of the sticker pack
+    timeZone: process.env.TIME_ZONE || 'Asia/Kolkata', // Time zone
     presenceStatus: process.env.PRESENCE_STATUS || 'recording', // Bot presence status
-    autoRead: process.env.AUTO_READ === 'true', // Auto-read messages (true or false)
-    autoViewStatus: process.env.AUTO_VIEW_STATUS === 'true', // Auto-view statuses (true or false)
-    sessionId: process.env.SESSION_ID || '', // WhatsApp session ID
+    autoRead: process.env.AUTO_READ === 'false', // Auto-read messages (true or false)
+    autoViewStatus: process.env.AUTO_VIEW_STATUS === 'false', // Auto-view statuses (true or false)
+    sessionId: process.env.SESSION_ID || 'eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMlBxSzVXNlRYV0k0bGJwS1Fub3MyQlBzc3YzSkl4UkF6L0tmWnFiNlFrdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVFZQTjFDcG9ZdXpHYkpqTlJQa2NvVEZkREk2WmZ3ZDhHVmpHRWRqdll4RT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxS3hQc3NTUHJhZHN0NGtGNEYxMXRkSzFYOEZnV0lvWS95OSsrL0dGUG5JPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJzS05YbExWeW83TEJrbEtBNzhUYkdjZXlLZC8rWWJpT0xqa2lNQzduMnkwPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InFGSXpiZ1pmcU9RSFlGMTg1djFDMjZhUmtPVExHZ1RxdmdjQTZxZkt0a2M9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im83bUl0ZXA0d2JBdjcxOUtrZ1hNV0Q0RXJhME14YXdtdncvWXpZN3lqME09In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiV0YxZnVETXhNU2c5a0tnNnQ0UU9JTDgvRFRTVmN1L1lIRzhVVHBjeXIwdz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieW96VVlGL2NUZTE4eCs3dDZoYzFJVG14STVTcUU4YU5paHRIOWcyWGl4VT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InR0Z1pFanh1L21zcHpNNzBmVU80QkZyZ25MR3labEIxTnBCZ28vVEZrbzNYR1ZZQXI2WDBrU1NpcmtjY01GQkJUNXFldlpNMjFLQXBTVjljdENpSUNnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NzEsImFkdlNlY3JldEtleSI6ImlLTEtQY2pEc3VLYmlCLzgzZk1wUVNGRHR1Qkx5RnkxTHRRQlBvVEpuNmc9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IkczdzZ0RFVzU0EyVVN4N3pTQXlMV3ciLCJwaG9uZUlkIjoiZTdiYzE1YzMtNDVhZS00MWQyLTg1NTgtNWI0MmYwYjgwZmZhIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNJbnp6Ny9aUnJMN1pHSnoyQ2ZrbVFHZ3N6QT0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJqcnBraU1XbGYwdlI2RlgyZFE4TXhCQkZMOVE9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiQ1ZYQjVUOFIiLCJtZSI6eyJpZCI6IjkxODc4NzQ4NzM2OTo1OEBzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDT2p4N2VJRkVLRE1uYnNHR0FJZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiOFNTMDlYNzhnV0RuNko4MjdjZ2Z4eDducVgvSlh3dk1BRW5LaTJXZlFEYz0iLCJhY2NvdW50U2lnbmF0dXJlIjoiREFDRS9VVC9mV1FqRDQ0aHZaZEtRREJkeHE3SkJmdGdQVjlGdVNsb0lUajllbTRCZC83VHNhaFFLUHUrSnlrNGVtdStJOFpwQnlUSTh0S2oyYkZRQ0E9PSIsImRldmljZVNpZ25hdHVyZSI6ImZWNzNDa0NSYmZyMjQ0NVRXMXZydE5YalZKRlloUFJvQTFCRDltdTB5Y2ZFVEMxM0NkRVlQMWg2OXorRmh1WGpwMVEzeVpkY2I4RitxcGdnZkVVdkFBPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiOTE4Nzg3NDg3MzY5OjU4QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmZFa3RQVisvSUZnNStpZk51M0lIOGNlNTZsL3lWOEx6QUJKeW90bG4wQTMifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MzQ4Mjk2MTMsIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBTFBDIn0=', // WhatsApp session ID
 };
